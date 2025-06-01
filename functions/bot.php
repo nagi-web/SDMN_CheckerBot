@@ -3,7 +3,7 @@
 ///////////===[Bot Functions]===///////////
 function bot($method,$datas=[]){
     global $config;
-    $url = "https://api.telegram.org/bot".$config['botToken']."/".$method;
+    $url = "https://api.telegram.org/bot".$config['7220619074:AAFaB-8EuwYx6s_VM2YLvcoYwhti2jyRX3I']."/".$method;
     $ch = curl_init();
     curl_setopt($ch,CURLOPT_URL,$url);
     curl_setopt($ch,CURLOPT_RETURNTRANSFER,true);
